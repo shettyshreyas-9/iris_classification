@@ -4,6 +4,21 @@ make_dataset:
   test_split: 0.22
   seed: 24
 
+models:
+  - model_type: logistic_regression
+    hyperparameters:
+      - {C: 1.0, max_iter: 100, solver: lbfgs, random_state: 42}
+      - {C: 5.0, max_iter: 200, solver: lbfgs, random_state: 42}
+
+  - model_type: random_forest
+    hyperparameters:
+      - {n_estimators: 100, max_depth: 5, min_samples_split: 2, random_state: 42}
+      - {n_estimators: 50, max_depth: 10, min_samples_split: 5, random_state: 42}
+
+  - model_type: svm
+    hyperparameters:
+      - {C: 1.0, kernel: rbf, gamma: scale, random_state: 42}
+      - {C: 0.5, kernel: linear, gamma: auto, random_state: 42}
 
 
 

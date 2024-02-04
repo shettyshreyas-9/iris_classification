@@ -2,5 +2,8 @@ stages:
   make_dataset:
     cmd: python   .\src\data\make_dataset.py  .\data\raw\Iris.csv  .\data\processed  .\params.yaml
 
-  train_model:
-    cmd: python .\src\models\train_model.py .\data\processed   .\params.yaml  .\models
+  # train_model1:
+  #   cmd: python  .\src\models\train_model.py  .\data\processed   .\params.yaml  .\models
+
+  train_model2:
+    cmd: python .\src\models\tm_2.py .\data\processed .\params2.yaml .\models
