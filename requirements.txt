@@ -2,3 +2,4 @@ pandas
 # yaml
 scikit-learn
 mlflow
+dvc==3.33.3

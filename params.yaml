@@ -1,0 +1,27 @@
+# params.yaml
+
+make_dataset:
+  test_split: 0.22
+  seed: 24
+
+
+
+
+
+
+
+
+
+# param_name: param_value
+# models:
+#   logistic_regression:
+#     hyperparameters:
+#       C: [0.1, 1.0, 10.0]
+#   random_forest:
+#     hyperparameters:
+#       n_estimators: [50, 100, 150]
+#       max_depth: [3, 5, 7]
+#   svm:
+#     hyperparameters:
+#       C: [0.1, 1.0, 10.0]
+#       kernel: ['linear', 'rbf']

@@ -1,0 +1,4 @@
+schema: '2.0'
+stages:
+  make_dataset:
+    cmd: python .\src\data\make_dataset.py .\data\raw\Iris.csv .\data\processed .\params.yaml
