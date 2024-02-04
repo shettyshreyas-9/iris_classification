@@ -1,0 +1,43 @@
+# dvc.yaml
+stages:
+  make_dataset:
+    cmd: python .\src\data\make_dataset.py .\data\raw\iris.csv
+    deps:
+      - data/iris.csv
+      - params.yaml
+    outs:
+      - data/preprocessed_data.csv
+
+  # preprocess_data:
+  #   cmd: python code/your_pipeline.py preprocess_data
+  #   deps:
+  #     - data/preprocessed_data.csv
+  #     - params.yaml
+  #   outs:
+  #     - data/X_train.csv
+  #     - data/X_test.csv
+  #     - data/y_train.csv
+  #     - data/y_test.csv
+
+  # train_models:
+  #   cmd: python code/your_pipeline.py train_models
+  #   deps:
+  #     - data/X_train.csv
+  #     - data/y_train.csv
+  #     - params.yaml
+  #   outs:
+  #     - logistic_regression_model
+  #     - random_forest_model
+  #     - svm_model
+
+  # evaluate_models:
+  #   cmd: python code/your_pipeline.py evaluate_models
+  #   deps:
+  #     - logistic_regression_model
+  #     - random_forest_model
+  #     - svm_model
+  #     - data/X_test.csv
+  #     - data/y_test.csv
+  #     - params.yaml
+  #   outs:
+  #     - evaluation_results.txt
