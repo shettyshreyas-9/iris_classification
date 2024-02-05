@@ -1,6 +1,6 @@
 outs:
-- md5: be2cf4c314872f1ddaf403db9e9f74f3.dir
-  size: 11687
-  nfiles: 10
+- md5: 1f32fb163ce97a36ceef18e2d33a6402.dir
+  size: 398715
+  nfiles: 25
   hash: md5
   path: tmp_storage
