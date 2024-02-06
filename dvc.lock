@@ -5,4 +5,6 @@ stages:
   train_model:
     cmd: python .\src\models\train_model.py .\data\processed   .\params.yaml  .\models
   train_model2:
-    cmd: python .\src\models\tm_2.py .\data\processed .\params2.yaml .\models
+    cmd: python .\src\models\tm_2.py .\data\processed .\params2.yaml .\models  .\mlflow
+  evaluate:
+    cmd: python  .\src\evaluate\evaluate.py  .\data\processed  .\params2.yaml  .\models
