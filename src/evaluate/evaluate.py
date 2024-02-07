@@ -3,6 +3,7 @@ import pathlib
 import sys
 import yaml
 import joblib
+import logging
 
 import os
 from itertools import product
@@ -15,8 +16,21 @@ from sklearn.metrics import recall_score
 
 import mlflow
 
+
+def setup_logging():
+    # Configure logging to write to a file and also print to the console
+    log_file_path = pathlib.Path(__file__).parent.as_posix() + sys.argv[4]  # Specify the path to your log file
+    logging.basicConfig(
+        filename=log_file_path,
+        level=logging.INFO,
+        format="%(asctime)s [%(levelname)s]: %(message)s",
+        datefmt="%Y-%m-%d %H:%M:%S"
+    )
+
 # Set the MLflow tracking URI
 mlflow.set_tracking_uri('http://localhost:5000') 
+
+
 
 def evaluate_model(X_test, y_test, model):
     # Evaluate the model
@@ -29,9 +43,13 @@ def evaluate_model(X_test, y_test, model):
 
     recall = recall_score(y_test, y_pred,average='micro')
 
+    logging.info(f"Evaluation results - Accuracy: {accuracy}, Precision: {precision}, Recall: {recall}")
+
     return accuracy, recall, accuracy
 
 def main():
+
+    setup_logging()
 
     curr_dir = pathlib.Path(__file__)
     home_dir = curr_dir.parent.parent.parent

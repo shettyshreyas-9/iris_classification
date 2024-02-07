@@ -1,10 +1,32 @@
 schema: '2.0'
 stages:
   make_dataset:
-    cmd: python   .\src\data\make_dataset.py  .\data\raw\Iris.csv  .\data\processed  .\params.yaml
+    cmd: python   .\src\data\make_dataset.py  .\data\raw\Iris.csv  .\data\processed  .\params2.yaml  .\make_dataset_logfile.log
+    deps:
+    - path: .\data\raw\Iris.csv
+      hash: md5
+      md5: 717820ef0af287ff346c5cabfb4c612c
+      size: 5107
+    - path: .\params2.yaml
+      hash: md5
+      md5: ae4ab46aab4d7b021e9557cb73fbab72
+      size: 496
+    - path: .\src\data\make_dataset.py
+      hash: md5
+      md5: e62f00b879b79cbd156db3f0eccc2128
+      size: 2324
   train_model:
     cmd: python .\src\models\train_model.py .\data\processed   .\params.yaml  .\models
   train_model2:
-    cmd: python .\src\models\tm_2.py .\data\processed .\params2.yaml .\models  .\mlflow
+    cmd: python .\src\models\tm_2.py .\data\processed .\params2.yaml .\models  .\mlflow  .\train_logfile.log
+    deps:
+    - path: .\params2.yaml
+      hash: md5
+      md5: ae4ab46aab4d7b021e9557cb73fbab72
+      size: 496
+    - path: .\src\models\tm_2.py
+      hash: md5
+      md5: 16c9c1e8d8876e68ef3e08644ae1e1af
+      size: 2647
   evaluate:
-    cmd: python  .\src\evaluate\evaluate.py  .\data\processed  .\params2.yaml  .\models
+    cmd: python  .\src\evaluate\evaluate.py  .\data\processed  .\params2.yaml  .\models  .\evaluate_logfile.log

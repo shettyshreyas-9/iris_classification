@@ -1,0 +1,8 @@
+2024-02-07 14:31:53 [INFO]: Training random_forest model with hyperparameters: {'n_estimators': 115, 'max_depth': 8}
+2024-02-07 14:31:53 [INFO]: Training random_forest model with hyperparameters: {'n_estimators': 115, 'max_depth': 10}
+2024-02-07 14:31:53 [INFO]: Training random_forest model with hyperparameters: {'n_estimators': 85, 'max_depth': 8}
+2024-02-07 14:31:53 [INFO]: Training random_forest model with hyperparameters: {'n_estimators': 85, 'max_depth': 10}
+2024-02-07 14:31:53 [INFO]: Training svm model with hyperparameters: {'C': 2.6, 'kernel': 'rbf'}
+2024-02-07 14:31:53 [INFO]: Training svm model with hyperparameters: {'C': 2.6, 'kernel': 'linear'}
+2024-02-07 14:31:53 [INFO]: Training svm model with hyperparameters: {'C': 3.5, 'kernel': 'rbf'}
+2024-02-07 14:31:53 [INFO]: Training svm model with hyperparameters: {'C': 3.5, 'kernel': 'linear'}

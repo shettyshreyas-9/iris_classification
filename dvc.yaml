@@ -1,13 +1,20 @@
 stages:
   make_dataset:
-    cmd: python   .\src\data\make_dataset.py  .\data\raw\Iris.csv  .\data\processed  .\params.yaml
+    cmd: python   .\src\data\make_dataset.py  .\data\raw\Iris.csv  .\data\processed  .\params2.yaml  .\make_dataset_logfile.log
+    deps:
+    - .\src\data\make_dataset.py
+    - .\data\raw\Iris.csv
+    - .\params2.yaml
 
   # train_model1:
   #   cmd: python  .\src\models\train_model.py  .\data\processed   .\params.yaml  .\models
 
   train_model2:
-    cmd: python .\src\models\tm_2.py .\data\processed .\params2.yaml .\models  .\mlflow
+    cmd: python .\src\models\tm_2.py .\data\processed .\params2.yaml .\models  .\mlflow  .\train_logfile.log
+    deps:
+    - .\src\models\tm_2.py
+    - .\params2.yaml
 
   
   evaluate:
-    cmd: python  .\src\evaluate\evaluate.py  .\data\processed  .\params2.yaml  .\models
+    cmd: python  .\src\evaluate\evaluate.py  .\data\processed  .\params2.yaml  .\models  .\evaluate_logfile.log

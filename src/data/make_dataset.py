@@ -1,13 +1,26 @@
 import pathlib
 import yaml
 import sys
+import logging
 
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 
 
+def setup_logging():
+    # Configure logging to write to a file and also print to the console
+    log_file_path = pathlib.Path(__file__).parent.as_posix() + sys.argv[4]  # Specify the path to your log file
+    logging.basicConfig(
+        filename=log_file_path,
+        level=logging.INFO,
+        format="%(asctime)s [%(levelname)s]: %(message)s",
+        datefmt="%Y-%m-%d %H:%M:%S"
+    )
+
 def main():
+
+    setup_logging()
 
     curr_dir= pathlib.Path(__file__)
     home_dir = curr_dir.parent.parent.parent
@@ -33,6 +46,7 @@ def main():
         le= LabelEncoder()
         data_df['encoded_labels']= le.fit_transform(data_df['Species'])
         data_df.to_csv(output_path + '/processed_data.csv', index=False)
+        logging.info("Data preprocessing completed")
         
 
     preprocess_data(data_df,output_path)
@@ -58,6 +72,7 @@ def main():
         pathlib.Path(output_path).mkdir(parents=True, exist_ok=True)
         train_df.to_csv(output_path + '/train_iris.csv', index=False)
         test_df.to_csv(output_path + '/test_iris.csv', index=False)
+        logging.info("Data saved successfully")
 
     save_data(train_df,test_df,output_path)
 

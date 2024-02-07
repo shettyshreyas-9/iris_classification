@@ -3,6 +3,7 @@ import pathlib
 import sys
 import yaml
 import joblib
+import logging
 
 import os
 from itertools import product
@@ -13,6 +14,15 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.svm import SVC
 
+def setup_logging():
+    # Configure logging to write to a file and also print to the console
+    log_file_path = pathlib.Path(__file__).parent.as_posix() + sys.argv[5]  # Specify the path to your log file
+    logging.basicConfig(
+        filename=log_file_path,
+        level=logging.INFO,
+        format="%(asctime)s [%(levelname)s]: %(message)s",
+        datefmt="%Y-%m-%d %H:%M:%S"
+    )
 
 
 def train_model(X_train, y_train, model_type, hyperparameters, output_path):
@@ -27,6 +37,8 @@ def train_model(X_train, y_train, model_type, hyperparameters, output_path):
 
     model.fit(X_train, y_train)
 
+    logging.info(f"Training {model_type} model with hyperparameters: {hyperparameters}")
+
     # Save the model using joblib
     model_folder = '_'.join(str(val) for val in hyperparameters.values())
     os.makedirs(os.path.join(output_path, model_folder), exist_ok=True)
@@ -34,6 +46,8 @@ def train_model(X_train, y_train, model_type, hyperparameters, output_path):
 
 
 def main():
+
+    setup_logging()
 
     curr_dir= pathlib.Path(__file__)
     home_dir= curr_dir.parent.parent.parent
