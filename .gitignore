@@ -6,5 +6,6 @@
 
 /venv
 /tmp_storage
+tmp_storage.dvc
 /mlartifacts
 /mlruns

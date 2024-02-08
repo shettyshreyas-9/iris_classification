@@ -6,3 +6,241 @@
 2024-02-07 14:37:17 [INFO]: Evaluation results - Accuracy: 1.0, Precision: 1.0, Recall: 1.0
 2024-02-07 14:37:17 [INFO]: Evaluation results - Accuracy: 0.9696969696969697, Precision: 0.9696969696969697, Recall: 0.9696969696969697
 2024-02-07 14:37:18 [INFO]: Evaluation results - Accuracy: 1.0, Precision: 1.0, Recall: 1.0
+2024-02-07 21:13:07 [INFO]: Evaluation results - Accuracy: 1.0, Precision: 1.0, Recall: 1.0
+2024-02-07 21:13:07 [INFO]: Evaluation results - Accuracy: 1.0, Precision: 1.0, Recall: 1.0
+2024-02-07 21:13:07 [INFO]: Evaluation results - Accuracy: 1.0, Precision: 1.0, Recall: 1.0
+2024-02-07 21:13:07 [INFO]: Evaluation results - Accuracy: 1.0, Precision: 1.0, Recall: 1.0
+2024-02-07 21:13:07 [INFO]: Evaluation results - Accuracy: 0.9696969696969697, Precision: 0.9696969696969697, Recall: 0.9696969696969697
+2024-02-07 21:13:07 [INFO]: Evaluation results - Accuracy: 1.0, Precision: 1.0, Recall: 1.0
+2024-02-07 21:13:07 [INFO]: Evaluation results - Accuracy: 0.9696969696969697, Precision: 0.9696969696969697, Recall: 0.9696969696969697
+2024-02-07 21:13:08 [INFO]: Evaluation results - Accuracy: 1.0, Precision: 1.0, Recall: 1.0
+2024-02-07 21:23:05 [INFO]: Evaluation results - Accuracy: 1.0, Precision: 1.0, Recall: 1.0
+2024-02-07 21:23:05 [INFO]: Evaluation results - Accuracy: 1.0, Precision: 1.0, Recall: 1.0
+2024-02-07 21:23:05 [INFO]: Evaluation results - Accuracy: 1.0, Precision: 1.0, Recall: 1.0
+2024-02-07 21:23:05 [INFO]: Evaluation results - Accuracy: 1.0, Precision: 1.0, Recall: 1.0
+2024-02-07 21:23:06 [INFO]: Evaluation results - Accuracy: 0.9696969696969697, Precision: 0.9696969696969697, Recall: 0.9696969696969697
+2024-02-07 21:23:06 [INFO]: Evaluation results - Accuracy: 1.0, Precision: 1.0, Recall: 1.0
+2024-02-07 21:23:06 [INFO]: Evaluation results - Accuracy: 0.9696969696969697, Precision: 0.9696969696969697, Recall: 0.9696969696969697
+2024-02-07 21:23:06 [INFO]: Evaluation results - Accuracy: 1.0, Precision: 1.0, Recall: 1.0
+2024-02-08 18:30:02 [WARNING]: Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026A40CE2050>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /api/2.0/mlflow/runs/create
+2024-02-08 18:30:11 [WARNING]: Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026A41024E90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /api/2.0/mlflow/runs/create
+2024-02-08 18:30:23 [WARNING]: Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026A3F25BA50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /api/2.0/mlflow/runs/create
+2024-02-08 18:30:43 [WARNING]: Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026A41006090>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /api/2.0/mlflow/runs/create
+2024-02-08 18:31:19 [WARNING]: Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026A410072D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /api/2.0/mlflow/runs/create
+2024-02-08 18:39:47 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 18:39:47 [INFO]: Cross-validation results - Metric: precision, Mean Score: 0.9666666666666666, Std Score: 0.06666666666666665
+2024-02-08 18:39:48 [INFO]: Cross-validation results - Metric: recall, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 18:39:49 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 18:39:49 [INFO]: Cross-validation results - Metric: precision, Mean Score: 0.9666666666666666, Std Score: 0.06666666666666665
+2024-02-08 18:39:50 [INFO]: Cross-validation results - Metric: recall, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 18:39:50 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 0.9666666666666666, Std Score: 0.06666666666666665
+2024-02-08 18:39:51 [INFO]: Cross-validation results - Metric: precision, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 18:39:51 [INFO]: Cross-validation results - Metric: recall, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 18:39:52 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 18:39:52 [INFO]: Cross-validation results - Metric: precision, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 18:39:53 [INFO]: Cross-validation results - Metric: recall, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 18:39:53 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 0.9714285714285715, Std Score: 0.05714285714285716
+2024-02-08 18:39:53 [INFO]: Cross-validation results - Metric: precision, Mean Score: 0.9714285714285715, Std Score: 0.05714285714285716
+2024-02-08 18:39:53 [INFO]: Cross-validation results - Metric: recall, Mean Score: 0.9714285714285715, Std Score: 0.05714285714285716
+2024-02-08 18:39:53 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 0.9714285714285715, Std Score: 0.05714285714285716
+2024-02-08 18:39:53 [INFO]: Cross-validation results - Metric: precision, Mean Score: 0.9714285714285715, Std Score: 0.05714285714285716
+2024-02-08 18:39:53 [INFO]: Cross-validation results - Metric: recall, Mean Score: 0.9714285714285715, Std Score: 0.05714285714285716
+2024-02-08 18:39:53 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 0.9380952380952381, Std Score: 0.0761904761904762
+2024-02-08 18:39:53 [INFO]: Cross-validation results - Metric: precision, Mean Score: 0.9380952380952381, Std Score: 0.0761904761904762
+2024-02-08 18:39:53 [INFO]: Cross-validation results - Metric: recall, Mean Score: 0.9380952380952381, Std Score: 0.0761904761904762
+2024-02-08 18:39:53 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 0.9714285714285715, Std Score: 0.05714285714285716
+2024-02-08 18:39:53 [INFO]: Cross-validation results - Metric: precision, Mean Score: 0.9714285714285715, Std Score: 0.05714285714285716
+2024-02-08 18:39:53 [INFO]: Cross-validation results - Metric: recall, Mean Score: 0.9714285714285715, Std Score: 0.05714285714285716
+2024-02-08 19:37:13 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:40:41 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:40:42 [INFO]: Cross-validation results - Metric: precision, Mean Score: 0.9416666666666667, Std Score: 0.11666666666666665
+2024-02-08 19:40:43 [INFO]: Cross-validation results - Metric: recall, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:40:44 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:40:46 [INFO]: Cross-validation results - Metric: precision, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:40:48 [INFO]: Cross-validation results - Metric: recall, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:40:49 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 0.9666666666666666, Std Score: 0.06666666666666665
+2024-02-08 19:40:50 [INFO]: Cross-validation results - Metric: precision, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:40:50 [INFO]: Cross-validation results - Metric: recall, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:40:52 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:40:54 [INFO]: Cross-validation results - Metric: precision, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:40:55 [INFO]: Cross-validation results - Metric: recall, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:40:56 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:40:57 [INFO]: Cross-validation results - Metric: precision, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:40:57 [INFO]: Cross-validation results - Metric: recall, Mean Score: 0.9666666666666666, Std Score: 0.06666666666666665
+2024-02-08 19:40:58 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:40:59 [INFO]: Cross-validation results - Metric: precision, Mean Score: 0.95, Std Score: 0.15
+2024-02-08 19:41:01 [INFO]: Cross-validation results - Metric: recall, Mean Score: 0.9666666666666666, Std Score: 0.1
+2024-02-08 19:41:02 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:41:02 [INFO]: Cross-validation results - Metric: precision, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:41:03 [INFO]: Cross-validation results - Metric: recall, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:41:04 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:41:05 [INFO]: Cross-validation results - Metric: precision, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:41:06 [INFO]: Cross-validation results - Metric: recall, Mean Score: 0.9666666666666666, Std Score: 0.1
+2024-02-08 19:41:07 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 0.9714285714285715, Std Score: 0.05714285714285716
+2024-02-08 19:41:07 [INFO]: Cross-validation results - Metric: precision, Mean Score: 0.95, Std Score: 0.09999999999999999
+2024-02-08 19:41:07 [INFO]: Cross-validation results - Metric: recall, Mean Score: 0.9714285714285715, Std Score: 0.05714285714285716
+2024-02-08 19:41:07 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 0.9666666666666666, Std Score: 0.1
+2024-02-08 19:41:07 [INFO]: Cross-validation results - Metric: precision, Mean Score: 0.95, Std Score: 0.15
+2024-02-08 19:41:07 [INFO]: Cross-validation results - Metric: recall, Mean Score: 0.9666666666666666, Std Score: 0.1
+2024-02-08 19:41:07 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 0.9714285714285715, Std Score: 0.05714285714285716
+2024-02-08 19:41:07 [INFO]: Cross-validation results - Metric: precision, Mean Score: 0.95, Std Score: 0.09999999999999999
+2024-02-08 19:41:07 [INFO]: Cross-validation results - Metric: recall, Mean Score: 0.9714285714285715, Std Score: 0.05714285714285716
+2024-02-08 19:41:07 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 0.9666666666666666, Std Score: 0.1
+2024-02-08 19:41:07 [INFO]: Cross-validation results - Metric: precision, Mean Score: 0.95, Std Score: 0.15
+2024-02-08 19:41:07 [INFO]: Cross-validation results - Metric: recall, Mean Score: 0.9666666666666666, Std Score: 0.1
+2024-02-08 19:41:07 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 0.9380952380952381, Std Score: 0.0761904761904762
+2024-02-08 19:41:08 [INFO]: Cross-validation results - Metric: precision, Mean Score: 0.9333333333333333, Std Score: 0.09718253158075502
+2024-02-08 19:41:08 [INFO]: Cross-validation results - Metric: recall, Mean Score: 0.9380952380952381, Std Score: 0.0761904761904762
+2024-02-08 19:41:08 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 0.9333333333333332, Std Score: 0.13333333333333336
+2024-02-08 19:41:08 [INFO]: Cross-validation results - Metric: precision, Mean Score: 0.9, Std Score: 0.2
+2024-02-08 19:41:08 [INFO]: Cross-validation results - Metric: recall, Mean Score: 0.9333333333333332, Std Score: 0.13333333333333336
+2024-02-08 19:41:08 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 0.9714285714285715, Std Score: 0.05714285714285716
+2024-02-08 19:41:08 [INFO]: Cross-validation results - Metric: precision, Mean Score: 0.95, Std Score: 0.09999999999999999
+2024-02-08 19:41:08 [INFO]: Cross-validation results - Metric: recall, Mean Score: 0.9714285714285715, Std Score: 0.05714285714285716
+2024-02-08 19:41:08 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 0.9666666666666666, Std Score: 0.1
+2024-02-08 19:41:08 [INFO]: Cross-validation results - Metric: precision, Mean Score: 0.95, Std Score: 0.15
+2024-02-08 19:41:08 [INFO]: Cross-validation results - Metric: recall, Mean Score: 0.9666666666666666, Std Score: 0.1
+2024-02-08 19:52:22 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 0.9666666666666666, Std Score: 0.06666666666666665
+2024-02-08 19:52:23 [INFO]: Cross-validation results - Metric: precision, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:52:24 [INFO]: Cross-validation results - Metric: recall, Mean Score: 0.9666666666666666, Std Score: 0.06666666666666665
+2024-02-08 19:52:25 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 0.9666666666666666, Std Score: 0.1
+2024-02-08 19:52:26 [INFO]: Cross-validation results - Metric: precision, Mean Score: 0.95, Std Score: 0.15
+2024-02-08 19:52:27 [INFO]: Cross-validation results - Metric: recall, Mean Score: 0.9666666666666666, Std Score: 0.1
+2024-02-08 19:52:28 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 0.9666666666666666, Std Score: 0.06666666666666665
+2024-02-08 19:52:29 [INFO]: Cross-validation results - Metric: precision, Mean Score: 0.9416666666666667, Std Score: 0.11666666666666665
+2024-02-08 19:52:30 [INFO]: Cross-validation results - Metric: recall, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:52:31 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 0.9666666666666666, Std Score: 0.1
+2024-02-08 19:52:33 [INFO]: Cross-validation results - Metric: precision, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:52:34 [INFO]: Cross-validation results - Metric: recall, Mean Score: 0.9666666666666666, Std Score: 0.1
+2024-02-08 19:52:35 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:52:36 [INFO]: Cross-validation results - Metric: precision, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:52:36 [INFO]: Cross-validation results - Metric: recall, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:52:37 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:52:38 [INFO]: Cross-validation results - Metric: precision, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:52:39 [INFO]: Cross-validation results - Metric: recall, Mean Score: 0.9666666666666666, Std Score: 0.1
+2024-02-08 19:52:40 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 0.9666666666666666, Std Score: 0.06666666666666665
+2024-02-08 19:52:41 [INFO]: Cross-validation results - Metric: precision, Mean Score: 0.9416666666666667, Std Score: 0.11666666666666665
+2024-02-08 19:52:42 [INFO]: Cross-validation results - Metric: recall, Mean Score: 0.9666666666666666, Std Score: 0.06666666666666665
+2024-02-08 19:52:43 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 0.9666666666666666, Std Score: 0.1
+2024-02-08 19:52:44 [INFO]: Cross-validation results - Metric: precision, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:52:45 [INFO]: Cross-validation results - Metric: recall, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:52:45 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 0.9714285714285715, Std Score: 0.05714285714285716
+2024-02-08 19:52:45 [INFO]: Cross-validation results - Metric: precision, Mean Score: 0.95, Std Score: 0.09999999999999999
+2024-02-08 19:52:45 [INFO]: Cross-validation results - Metric: recall, Mean Score: 0.9714285714285715, Std Score: 0.05714285714285716
+2024-02-08 19:52:45 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 0.9666666666666666, Std Score: 0.1
+2024-02-08 19:52:45 [INFO]: Cross-validation results - Metric: precision, Mean Score: 0.95, Std Score: 0.15
+2024-02-08 19:52:45 [INFO]: Cross-validation results - Metric: recall, Mean Score: 0.9666666666666666, Std Score: 0.1
+2024-02-08 19:52:45 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 0.9714285714285715, Std Score: 0.05714285714285716
+2024-02-08 19:52:45 [INFO]: Cross-validation results - Metric: precision, Mean Score: 0.95, Std Score: 0.09999999999999999
+2024-02-08 19:52:46 [INFO]: Cross-validation results - Metric: recall, Mean Score: 0.9714285714285715, Std Score: 0.05714285714285716
+2024-02-08 19:52:46 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 0.9666666666666666, Std Score: 0.1
+2024-02-08 19:52:46 [INFO]: Cross-validation results - Metric: precision, Mean Score: 0.95, Std Score: 0.15
+2024-02-08 19:52:46 [INFO]: Cross-validation results - Metric: recall, Mean Score: 0.9666666666666666, Std Score: 0.1
+2024-02-08 19:52:46 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 0.9380952380952381, Std Score: 0.0761904761904762
+2024-02-08 19:52:46 [INFO]: Cross-validation results - Metric: precision, Mean Score: 0.9333333333333333, Std Score: 0.09718253158075502
+2024-02-08 19:52:46 [INFO]: Cross-validation results - Metric: recall, Mean Score: 0.9380952380952381, Std Score: 0.0761904761904762
+2024-02-08 19:52:46 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 0.9333333333333332, Std Score: 0.13333333333333336
+2024-02-08 19:52:46 [INFO]: Cross-validation results - Metric: precision, Mean Score: 0.9, Std Score: 0.2
+2024-02-08 19:52:46 [INFO]: Cross-validation results - Metric: recall, Mean Score: 0.9333333333333332, Std Score: 0.13333333333333336
+2024-02-08 19:52:46 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 0.9714285714285715, Std Score: 0.05714285714285716
+2024-02-08 19:52:46 [INFO]: Cross-validation results - Metric: precision, Mean Score: 0.95, Std Score: 0.09999999999999999
+2024-02-08 19:52:46 [INFO]: Cross-validation results - Metric: recall, Mean Score: 0.9714285714285715, Std Score: 0.05714285714285716
+2024-02-08 19:52:46 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 0.9666666666666666, Std Score: 0.1
+2024-02-08 19:52:46 [INFO]: Cross-validation results - Metric: precision, Mean Score: 0.95, Std Score: 0.15
+2024-02-08 19:52:47 [INFO]: Cross-validation results - Metric: recall, Mean Score: 0.9666666666666666, Std Score: 0.1
+2024-02-08 19:59:18 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:59:18 [INFO]: Cross-validation results - Metric: precision, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:59:19 [INFO]: Cross-validation results - Metric: recall, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:59:20 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:59:21 [INFO]: Cross-validation results - Metric: precision, Mean Score: 0.9416666666666667, Std Score: 0.11666666666666665
+2024-02-08 19:59:22 [INFO]: Cross-validation results - Metric: recall, Mean Score: 0.9666666666666666, Std Score: 0.06666666666666665
+2024-02-08 19:59:23 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:59:23 [INFO]: Cross-validation results - Metric: precision, Mean Score: 0.9747474747474748, Std Score: 0.03571246369629025
+2024-02-08 19:59:24 [INFO]: Cross-validation results - Metric: recall, Mean Score: 0.9696969696969697, Std Score: 0.04285495643554835
+2024-02-08 19:59:25 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:59:26 [INFO]: Cross-validation results - Metric: precision, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:59:27 [INFO]: Cross-validation results - Metric: recall, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:59:28 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 0.9696969696969697, Std Score: 0.04285495643554835
+2024-02-08 19:59:28 [INFO]: Cross-validation results - Metric: precision, Mean Score: 0.9747474747474748, Std Score: 0.03571246369629025
+2024-02-08 19:59:29 [INFO]: Cross-validation results - Metric: recall, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:59:29 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:59:30 [INFO]: Cross-validation results - Metric: precision, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:59:31 [INFO]: Cross-validation results - Metric: recall, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:59:32 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:59:32 [INFO]: Cross-validation results - Metric: precision, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:59:33 [INFO]: Cross-validation results - Metric: recall, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:59:33 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:59:34 [INFO]: Cross-validation results - Metric: precision, Mean Score: 1.0, Std Score: 0.0
+2024-02-08 19:59:35 [INFO]: Cross-validation results - Metric: recall, Mean Score: 0.9666666666666666, Std Score: 0.06666666666666665
+2024-02-08 19:59:35 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 0.9393939393939394, Std Score: 0.04285495643554835
+2024-02-08 19:59:35 [INFO]: Cross-validation results - Metric: precision, Mean Score: 0.9555555555555556, Std Score: 0.031814173228330564
+2024-02-08 19:59:35 [INFO]: Cross-validation results - Metric: recall, Mean Score: 0.9393939393939394, Std Score: 0.04285495643554835
+2024-02-08 19:59:35 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 0.9714285714285715, Std Score: 0.05714285714285716
+2024-02-08 19:59:35 [INFO]: Cross-validation results - Metric: precision, Mean Score: 0.95, Std Score: 0.09999999999999999
+2024-02-08 19:59:35 [INFO]: Cross-validation results - Metric: recall, Mean Score: 0.9714285714285715, Std Score: 0.05714285714285716
+2024-02-08 19:59:35 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 0.9696969696969697, Std Score: 0.04285495643554835
+2024-02-08 19:59:35 [INFO]: Cross-validation results - Metric: precision, Mean Score: 0.9757575757575757, Std Score: 0.03428396514843868
+2024-02-08 19:59:35 [INFO]: Cross-validation results - Metric: recall, Mean Score: 0.9696969696969697, Std Score: 0.04285495643554835
+2024-02-08 19:59:35 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 0.9714285714285715, Std Score: 0.05714285714285716
+2024-02-08 19:59:35 [INFO]: Cross-validation results - Metric: precision, Mean Score: 0.95, Std Score: 0.09999999999999999
+2024-02-08 19:59:36 [INFO]: Cross-validation results - Metric: recall, Mean Score: 0.9714285714285715, Std Score: 0.05714285714285716
+2024-02-08 19:59:36 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 0.9393939393939394, Std Score: 0.04285495643554835
+2024-02-08 19:59:36 [INFO]: Cross-validation results - Metric: precision, Mean Score: 0.9555555555555556, Std Score: 0.031814173228330564
+2024-02-08 19:59:36 [INFO]: Cross-validation results - Metric: recall, Mean Score: 0.9393939393939394, Std Score: 0.04285495643554835
+2024-02-08 19:59:36 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 0.9380952380952381, Std Score: 0.0761904761904762
+2024-02-08 19:59:36 [INFO]: Cross-validation results - Metric: precision, Mean Score: 0.9333333333333333, Std Score: 0.09718253158075502
+2024-02-08 19:59:36 [INFO]: Cross-validation results - Metric: recall, Mean Score: 0.9380952380952381, Std Score: 0.0761904761904762
+2024-02-08 19:59:36 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 0.9696969696969697, Std Score: 0.04285495643554835
+2024-02-08 19:59:36 [INFO]: Cross-validation results - Metric: precision, Mean Score: 0.9757575757575757, Std Score: 0.03428396514843868
+2024-02-08 19:59:36 [INFO]: Cross-validation results - Metric: recall, Mean Score: 0.9696969696969697, Std Score: 0.04285495643554835
+2024-02-08 19:59:36 [INFO]: Cross-validation results - Metric: accuracy, Mean Score: 0.9714285714285715, Std Score: 0.05714285714285716
+2024-02-08 19:59:36 [INFO]: Cross-validation results - Metric: precision, Mean Score: 0.95, Std Score: 0.09999999999999999
+2024-02-08 19:59:36 [INFO]: Cross-validation results - Metric: recall, Mean Score: 0.9714285714285715, Std Score: 0.05714285714285716
+2024-02-08 20:19:26 [INFO]: Cross-validation results - CV: 3, Scores: {'accuracy': 1.0, 'precision': 1.0, 'recall': 0.9696969696969697}
+2024-02-08 20:19:27 [INFO]: Cross-validation results - CV: 5, Scores: {'accuracy': 1.0, 'precision': 0.9416666666666667, 'recall': 1.0}
+2024-02-08 20:19:29 [INFO]: Cross-validation results - CV: 3, Scores: {'accuracy': 0.9696969696969697, 'precision': 1.0, 'recall': 1.0}
+2024-02-08 20:19:31 [INFO]: Cross-validation results - CV: 5, Scores: {'accuracy': 0.9666666666666666, 'precision': 1.0, 'recall': 1.0}
+2024-02-08 20:19:32 [INFO]: Cross-validation results - CV: 3, Scores: {'accuracy': 1.0, 'precision': 1.0, 'recall': 1.0}
+2024-02-08 20:19:33 [INFO]: Cross-validation results - CV: 5, Scores: {'accuracy': 1.0, 'precision': 0.9416666666666667, 'recall': 1.0}
+2024-02-08 20:19:34 [INFO]: Cross-validation results - CV: 3, Scores: {'accuracy': 0.9696969696969697, 'precision': 0.9747474747474748, 'recall': 1.0}
+2024-02-08 20:19:36 [INFO]: Cross-validation results - CV: 5, Scores: {'accuracy': 1.0, 'precision': 0.9416666666666667, 'recall': 1.0}
+2024-02-08 20:19:36 [INFO]: Cross-validation results - CV: 3, Scores: {'accuracy': 0.9393939393939394, 'precision': 0.9555555555555556, 'recall': 0.9393939393939394}
+2024-02-08 20:19:36 [INFO]: Cross-validation results - CV: 5, Scores: {'accuracy': 0.9714285714285715, 'precision': 0.95, 'recall': 0.9714285714285715}
+2024-02-08 20:19:36 [INFO]: Cross-validation results - CV: 3, Scores: {'accuracy': 0.9696969696969697, 'precision': 0.9757575757575757, 'recall': 0.9696969696969697}
+2024-02-08 20:19:36 [INFO]: Cross-validation results - CV: 5, Scores: {'accuracy': 0.9714285714285715, 'precision': 0.95, 'recall': 0.9714285714285715}
+2024-02-08 20:19:37 [INFO]: Cross-validation results - CV: 3, Scores: {'accuracy': 0.9393939393939394, 'precision': 0.9555555555555556, 'recall': 0.9393939393939394}
+2024-02-08 20:19:37 [INFO]: Cross-validation results - CV: 5, Scores: {'accuracy': 0.9380952380952381, 'precision': 0.9333333333333333, 'recall': 0.9380952380952381}
+2024-02-08 20:19:37 [INFO]: Cross-validation results - CV: 3, Scores: {'accuracy': 0.9696969696969697, 'precision': 0.9757575757575757, 'recall': 0.9696969696969697}
+2024-02-08 20:19:37 [INFO]: Cross-validation results - CV: 5, Scores: {'accuracy': 0.9714285714285715, 'precision': 0.95, 'recall': 0.9714285714285715}
+2024-02-08 20:22:49 [INFO]: Cross-validation results - CV: 3, Scores: {'accuracy': 1.0, 'precision': 1.0, 'recall': 0.9696969696969697}
+2024-02-08 20:22:52 [INFO]: Cross-validation results - CV: 5, Scores: {'accuracy': 0.9666666666666666, 'precision': 1.0, 'recall': 0.9666666666666666}
+2024-02-08 20:22:54 [INFO]: Cross-validation results - CV: 3, Scores: {'accuracy': 1.0, 'precision': 0.9696969696969697, 'recall': 1.0}
+2024-02-08 20:22:57 [INFO]: Cross-validation results - CV: 5, Scores: {'accuracy': 1.0, 'precision': 1.0, 'recall': 1.0}
+2024-02-08 20:22:58 [INFO]: Cross-validation results - CV: 3, Scores: {'accuracy': 1.0, 'precision': 1.0, 'recall': 1.0}
+2024-02-08 20:23:00 [INFO]: Cross-validation results - CV: 5, Scores: {'accuracy': 1.0, 'precision': 1.0, 'recall': 1.0}
+2024-02-08 20:23:02 [INFO]: Cross-validation results - CV: 3, Scores: {'accuracy': 0.9696969696969697, 'precision': 1.0, 'recall': 0.9696969696969697}
+2024-02-08 20:23:04 [INFO]: Cross-validation results - CV: 5, Scores: {'accuracy': 0.9666666666666666, 'precision': 1.0, 'recall': 1.0}
+2024-02-08 20:23:04 [INFO]: Cross-validation results - CV: 3, Scores: {'accuracy': 0.9393939393939394, 'precision': 0.9393939393939394, 'recall': 0.9393939393939394}
+2024-02-08 20:23:04 [INFO]: Cross-validation results - CV: 5, Scores: {'accuracy': 0.9714285714285715, 'precision': 0.9714285714285715, 'recall': 0.9714285714285715}
+2024-02-08 20:23:05 [INFO]: Cross-validation results - CV: 3, Scores: {'accuracy': 0.9696969696969697, 'precision': 0.9696969696969697, 'recall': 0.9696969696969697}
+2024-02-08 20:23:05 [INFO]: Cross-validation results - CV: 5, Scores: {'accuracy': 0.9714285714285715, 'precision': 0.9714285714285715, 'recall': 0.9714285714285715}
+2024-02-08 20:23:05 [INFO]: Cross-validation results - CV: 3, Scores: {'accuracy': 0.9393939393939394, 'precision': 0.9393939393939394, 'recall': 0.9393939393939394}
+2024-02-08 20:23:05 [INFO]: Cross-validation results - CV: 5, Scores: {'accuracy': 0.9380952380952381, 'precision': 0.9380952380952381, 'recall': 0.9380952380952381}
+2024-02-08 20:23:05 [INFO]: Cross-validation results - CV: 3, Scores: {'accuracy': 0.9696969696969697, 'precision': 0.9696969696969697, 'recall': 0.9696969696969697}
+2024-02-08 20:23:05 [INFO]: Cross-validation results - CV: 5, Scores: {'accuracy': 0.9714285714285715, 'precision': 0.9714285714285715, 'recall': 0.9714285714285715}
+2024-02-08 20:44:20 [INFO]: Cross-validation results - CV: 3, Scores: {'accuracy': 1.0, 'precision': 1.0, 'recall': 1.0}
+2024-02-08 20:44:23 [INFO]: Cross-validation results - CV: 5, Scores: {'accuracy': 1.0, 'precision': 1.0, 'recall': 1.0}
+2024-02-08 20:44:25 [INFO]: Cross-validation results - CV: 3, Scores: {'accuracy': 1.0, 'precision': 0.9696969696969697, 'recall': 0.9696969696969697}
+2024-02-08 20:44:28 [INFO]: Cross-validation results - CV: 5, Scores: {'accuracy': 1.0, 'precision': 1.0, 'recall': 1.0}
+2024-02-08 20:44:29 [INFO]: Cross-validation results - CV: 3, Scores: {'accuracy': 0.9696969696969697, 'precision': 0.9696969696969697, 'recall': 1.0}
+2024-02-08 20:44:31 [INFO]: Cross-validation results - CV: 5, Scores: {'accuracy': 0.9666666666666666, 'precision': 1.0, 'recall': 1.0}
+2024-02-08 20:44:33 [INFO]: Cross-validation results - CV: 3, Scores: {'accuracy': 1.0, 'precision': 1.0, 'recall': 1.0}
+2024-02-08 20:44:35 [INFO]: Cross-validation results - CV: 5, Scores: {'accuracy': 1.0, 'precision': 0.9666666666666666, 'recall': 1.0}
+2024-02-08 20:44:36 [INFO]: Cross-validation results - CV: 3, Scores: {'accuracy': 0.9393939393939394, 'precision': 0.9393939393939394, 'recall': 0.9393939393939394}
+2024-02-08 20:44:36 [INFO]: Cross-validation results - CV: 5, Scores: {'accuracy': 0.9714285714285715, 'precision': 0.9714285714285715, 'recall': 0.9714285714285715}
+2024-02-08 20:44:36 [INFO]: Cross-validation results - CV: 3, Scores: {'accuracy': 0.9696969696969697, 'precision': 0.9696969696969697, 'recall': 0.9696969696969697}
+2024-02-08 20:44:36 [INFO]: Cross-validation results - CV: 5, Scores: {'accuracy': 0.9714285714285715, 'precision': 0.9714285714285715, 'recall': 0.9714285714285715}
+2024-02-08 20:44:37 [INFO]: Cross-validation results - CV: 3, Scores: {'accuracy': 0.9393939393939394, 'precision': 0.9393939393939394, 'recall': 0.9393939393939394}
+2024-02-08 20:44:37 [INFO]: Cross-validation results - CV: 5, Scores: {'accuracy': 0.9380952380952381, 'precision': 0.9380952380952381, 'recall': 0.9380952380952381}
+2024-02-08 20:44:37 [INFO]: Cross-validation results - CV: 3, Scores: {'accuracy': 0.9696969696969697, 'precision': 0.9696969696969697, 'recall': 0.9696969696969697}
+2024-02-08 20:44:37 [INFO]: Cross-validation results - CV: 5, Scores: {'accuracy': 0.9714285714285715, 'precision': 0.9714285714285715, 'recall': 0.9714285714285715}

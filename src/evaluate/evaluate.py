@@ -14,6 +14,11 @@ from sklearn.metrics import accuracy_score
 from sklearn.metrics import precision_score
 from sklearn.metrics import recall_score
 
+from sklearn.metrics import make_scorer
+from sklearn.model_selection import cross_val_score
+from sklearn.model_selection import StratifiedKFold
+
+
 import mlflow
 
 
@@ -32,20 +37,23 @@ mlflow.set_tracking_uri('http://localhost:5000')
 
 
 
-def evaluate_model(X_test, y_test, model):
-    # Evaluate the model
-    y_pred = model.predict(X_test)
+def evaluate_model(X, y, model, metrics, cv_values):
+    results = {}
+    for cv in cv_values:
+        cv_scores = {
+            metric['metric_type']: cross_val_score(
+                model,
+                X,
+                y,
+                cv=cv,
+                scoring=metric.get('scorer', None) or metric.get('type', 'accuracy')
+            ).mean()
+            for metric in metrics
+        }
+        results[cv] = cv_scores
+        logging.info(f"Cross-validation results - CV: {cv}, Scores: {cv_scores}")
+    return results
 
-    # Calculate accuracy (modify this based on your actual evaluation metric)
-    accuracy = accuracy_score(y_test, y_pred)
-
-    precision = precision_score(y_test, y_pred, average='micro')
-
-    recall = recall_score(y_test, y_pred,average='micro')
-
-    logging.info(f"Evaluation results - Accuracy: {accuracy}, Precision: {precision}, Recall: {recall}")
-
-    return accuracy, recall, accuracy
 
 def main():
 
@@ -83,6 +91,7 @@ def main():
             model_folder = '_'.join(str(val) for val in hyperparameters)
             model_file_path = os.path.join(model_path, f"{model_type}/{model_folder}/model.joblib")
                 
+            # Check if the model file exists
             model = joblib.load(model_file_path)
 
             # Check if a run is active
@@ -92,17 +101,20 @@ def main():
 
             # Log the evaluation metrics using MLflow
             with mlflow.start_run():
-
                 mlflow.log_param("model_name", model_type)
 
-                # Evaluate the model
-                accuracy,precision,recall = evaluate_model(X_test, y_test, model)
-
+                # Log hyperparameters
                 mlflow.log_params(dict(zip(hyperparameters_list.keys(), hyperparameters)))
-                mlflow.log_metric("accuracy", accuracy)
-                mlflow.log_metric("precision", precision)
-                mlflow.log_metric("recall", recall)
-                # mlflow.log_artifact(model_file_path, "models")  # Log the model artifact
+
+                metrics = params.get('evaluation', {}).get('metrics', [{'metric_type': 'accuracy'}])
+                cv_values = params.get('evaluation', {}).get('cv', [5])
+
+                scores = evaluate_model(X_test, y_test, model, metrics=metrics, cv_values=cv_values)
+
+                for cv, cv_scores in scores.items():
+                    for metric_type, score in cv_scores.items():
+                        mlflow.log_metric(f"{metric_type}_cv_{cv}", score)
+
 
 
 if __name__ == '__main__':

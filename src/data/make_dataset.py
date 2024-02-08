@@ -23,9 +23,10 @@ def main():
     setup_logging()
 
     curr_dir= pathlib.Path(__file__)
+    print ('\n',curr_dir,'\n')
     home_dir = curr_dir.parent.parent.parent
 
-    # print(curr_dir)
+    print ('\n',home_dir,'\n')
 
     # input : load data
     input_file= sys.argv[1]

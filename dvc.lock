@@ -9,12 +9,12 @@ stages:
       size: 5107
     - path: .\params2.yaml
       hash: md5
-      md5: ae4ab46aab4d7b021e9557cb73fbab72
-      size: 496
+      md5: 08dd06c05de0f667449aa81aa7874655
+      size: 706
     - path: .\src\data\make_dataset.py
       hash: md5
-      md5: e62f00b879b79cbd156db3f0eccc2128
-      size: 2324
+      md5: dad692b9d1046ce4f2247f8b82f048e8
+      size: 2365
   train_model:
     cmd: python .\src\models\train_model.py .\data\processed   .\params.yaml  .\models
   train_model2:
@@ -22,8 +22,8 @@ stages:
     deps:
     - path: .\params2.yaml
       hash: md5
-      md5: ae4ab46aab4d7b021e9557cb73fbab72
-      size: 496
+      md5: 08dd06c05de0f667449aa81aa7874655
+      size: 706
     - path: .\src\models\tm_2.py
       hash: md5
       md5: 16c9c1e8d8876e68ef3e08644ae1e1af
